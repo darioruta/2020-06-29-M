@@ -139,7 +139,7 @@ public class Model {
 	private void cerca(List<DirectorConPeso> parziale, int maxAttori) {
 	
 		
-		if(sommaPesi(parziale)> maxAttori) { //sono arrivato al fondo adesso decido se cambiare ramo
+		if(sommaPesi(parziale)> maxAttori) { 
 			if(this.migliore.size()==0) {
 				this.migliore= new ArrayList<>(parziale);
 				return;
